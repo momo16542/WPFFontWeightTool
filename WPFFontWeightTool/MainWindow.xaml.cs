@@ -24,5 +24,14 @@ namespace WPFFontWeightTool
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            FontWeightTool tool = new FontWeightTool();
+            if (double.TryParse(txtFontSize.Text, out double size))
+            {
+                result.Text = tool.MeasureString(txtText.Text, size).ToString();
+            }
+        }
     }
 }

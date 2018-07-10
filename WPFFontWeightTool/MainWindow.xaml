@@ -7,6 +7,36 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="auto"></RowDefinition>
+            <RowDefinition  Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="FontSize" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Height="25" Grid.Row="0" Grid.Column="1" Width="50" TextWrapping="Wrap" Text="14" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="1" x:Name="txtFontSize"/>
+        <Label Content="Text" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Height="25" Grid.Row="1" Grid.Column="1"  Text="TextBox" Width="500" VerticalContentAlignment="Center"  Margin="1" x:Name="txtText"/>
+    </Grid>
+        <Button Content="Button" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Width="100" Click="Button_Click" HorizontalAlignment="Left"/>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Result" x:Name="result"/>
+        </Grid>
     </Grid>
 </Window>
