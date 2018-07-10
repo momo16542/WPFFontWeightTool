@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFFontWeightTool", "WPFFontWeightTool\WPFFontWeightTool.csproj", "{31015551-DC9B-41BF-A50C-6C5FA9C3AB07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31015551-DC9B-41BF-A50C-6C5FA9C3AB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31015551-DC9B-41BF-A50C-6C5FA9C3AB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31015551-DC9B-41BF-A50C-6C5FA9C3AB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31015551-DC9B-41BF-A50C-6C5FA9C3AB07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A0FC0B9-210F-4F74-B24D-A04D7839E9DA}
+	EndGlobalSection
+EndGlobal
